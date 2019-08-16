@@ -11,3 +11,6 @@ def batch_badge_creator (attendees)
   end 
   p batch_badges
 end 
+
+batch_badge_creator ("juan", "miguel")
+
