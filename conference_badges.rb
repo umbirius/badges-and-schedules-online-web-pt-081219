@@ -25,13 +25,16 @@ def assign_rooms (attendees)
 end 
 
 def printer (array)
-  #array.each do |item|
-    
-    #batch_badge_creator (item)
-    #assign_rooms (item)
+  new_array = batch_badge_creator (array)
+  new_arrayt = assign_rooms (item)
+  i=0
+  array.each do |array|
+    p new_array[i]
+    p new_arrayt[i]
+    i+=1
   end 
 
 end 
 
-assign_rooms[1] (["juan", "miguel"])
+assign_rooms (["juan", "miguel"])
 
