@@ -25,11 +25,7 @@ def assign_rooms (attendees)
 end 
 
 def printer (array)
-  i=0
-  array.each do |pubish|
-    
-  batch_badge_creator (array[i])
-end 
+  batch_badge_creator (array)
   assign_rooms (array)
 end 
 
