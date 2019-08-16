@@ -36,5 +36,5 @@ def printer (array)
 
 end 
 
-assign_rooms (["juan", "miguel"])
+printer (["juan", "miguel"])
 
