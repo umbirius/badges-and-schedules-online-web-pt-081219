@@ -20,5 +20,5 @@ def assign_rooms (attendees)
   end 
 end 
 
-batch_badge_creator (["juan", "miguel"])
+assign_rooms (["juan", "miguel"])
 
