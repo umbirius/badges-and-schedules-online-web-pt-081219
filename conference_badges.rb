@@ -19,7 +19,7 @@ def assign_rooms (attendees)
   attendees.each do |assign|
     assignments[i] = "Hello, #{assign}! You'll be assigned to room #{room}!"
     room+=1
-    i+=0
+    i+=1
   end 
   p assignments
 end 
