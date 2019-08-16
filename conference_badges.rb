@@ -26,7 +26,7 @@ end
 
 def printer (array)
   new_array = batch_badge_creator (array)
-  new_arrayt = assign_rooms (item)
+  new_arrayt = assign_rooms (array)
   i=0
   array.each do |array|
     p new_array[i]
