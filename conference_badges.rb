@@ -17,7 +17,7 @@ def assign_rooms (attendees)
   room=1
   i=0
   attendees.each do |assign|
-    assignments[i] ="Hello, #{assign}! You'll be assigned to room #{room}!"
+    assignments[i] = "Hello, #{assign}! You'll be assigned to room #{room}!"
     room+=1
     i+=0
   end 
