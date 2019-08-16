@@ -29,8 +29,8 @@ def printer (array)
   new_arrayt = assign_rooms (array)
   i=0
   array.each do |array|
-    p new_array[i]
-    p new_arrayt[i]
+    puts new_array[i]
+    puts new_arrayt[i]
     i+=1
   end 
 
