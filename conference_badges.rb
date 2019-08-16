@@ -24,5 +24,9 @@ def assign_rooms (attendees)
   p assignments
 end 
 
+def printer (array)
+  batch_badge_creator (array)
+  assign_rooms (array)
+end 
 assign_rooms (["juan", "miguel"])
 
