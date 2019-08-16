@@ -9,7 +9,7 @@ def batch_badge_creator (attendees)
     batch_badges[i] = "Hello, my name is #{badge}."
     i+=1 
   end 
-  puts batch_badges
+  p batch_badges
 end 
 
 def assign_rooms (attendees)
@@ -21,7 +21,7 @@ def assign_rooms (attendees)
     room+=1
     i+=1
   end 
-  puts assignments
+  p assignments
 end 
 
 def printer (array)
