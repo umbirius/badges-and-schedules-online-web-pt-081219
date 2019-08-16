@@ -1,5 +1,3 @@
-def badge_maker (array)
-  array.each do |badge| 
+def badge_maker (name)
     puts "Hello, my name is #{badge}"
-  end
 end 
