@@ -13,11 +13,15 @@ def batch_badge_creator (attendees)
 end 
 
 def assign_rooms (attendees)
+  assignments = []
   room=1
+  i=0
   attendees.each do |assign|
-    p "Hello, #{assign}! You'll be assigned to room #{room}!"
+    assignments[i] ="Hello, #{assign}! You'll be assigned to room #{room}!"
     room+=1
+    i+=0
   end 
+  p assignments
 end 
 
 assign_rooms (["juan", "miguel"])
