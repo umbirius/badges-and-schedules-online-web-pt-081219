@@ -1,1 +1,1 @@
-# Write your code here.
+def badge_maker (array)# Write your code here.
